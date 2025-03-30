@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+}
+font {
+    font-family: cursive;
+    font-size: 3.125rem; /* 50px to rem */
+    font-weight: bolder;
+    color: yellow;
+}
+img {
+    width: 62.5rem; /* 1000px to rem */
+    height: 25rem; /* 400px to rem */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 21.25rem; /* 340px to rem */
+}
+font.style1 {
+    color: black;
+    background-color: yellow;
+    font-family: cursive;
+    font-size: 1.875rem; /* 30px to rem */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.25rem; /* 20px to rem */
+    margin-top: 1.875rem; /* 30px to rem */
+    font-weight: lighter;
+}

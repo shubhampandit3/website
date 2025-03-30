@@ -1,0 +1,268 @@
+/* सामान्य नेविगेशन स्टाइल */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+    overflow: hidden;
+    font-family: cursive;
+    display: flex;
+    border-radius: 1.25rem;
+}
+
+nav ul li {
+    /*float: left;*/
+    font-family: cursive;
+
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: cursive;
+}
+
+nav ul li a:hover {
+    background-color: #ddd;
+    color: black;
+    font-family: cursive;
+
+}
+
+/* ड्रॉप-डाउन स्टाइल */
+.dropdown {
+    /*float: left;*/
+    overflow: hidden;
+    font-family: cursive;
+    border-radius: 1.25rem;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* महत्वपूर्ण: पैरेंट से फ़ॉन्ट इनहेरिट करें */
+    margin: 0; /* महत्वपूर्ण: बाहरी मार्जिन हटाएं */
+    cursor: pointer;
+    font-family: cursive;
+    border-radius: 1.25rem;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0d0d0d;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family: cursive;
+    border-radius: 1.25rem;
+}
+
+.dropdown-content a {
+    color: rgb(245, 242, 242);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-family: cursive;
+    border-radius: 1.25rem;
+}
+
+.dropdown-content a:hover {background-color: #d1ef09;
+    font-family: cursive;
+   border-radius: 1.25rem;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    font-family: cursive;
+    border-radius: 1.25rem;
+}
+font.style1{
+    color: #333;
+    font-size: 2.5rem;
+    font-family: cursive;
+    font-weight: bolder;
+    text-shadow: 2px 2px 5px rgba(89, 5, 235, 0.948); /* Corrected text-shadow syntax */
+    display: inline-flex; /* Use inline-flex for alignment */
+    align-items: center; /* Vertically align text and image */
+    background-color: #dcfd03;
+}
+
+font.style1 span.image {
+    display: inline-block;
+    margin-left: 5px; /* Add minimal spacing between text and image */
+    width: 3rem; /* Set desired width */
+    height: 3rem; /* Set desired height */
+}
+
+font.style1 span.image img {
+    width: 100%; /* Ensure the image fits the span */
+    height: 100%; /* Ensure the image fits the span */
+    object-fit: cover; /* Maintain aspect ratio if needed */
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+font.style2{
+    color: rgb(174, 255, 0);
+    font-family: cursive;
+    font-size: 1.2rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #0d0d0d;
+    border-radius: 1.25rem;
+    box-shadow: 0 0 0.625rem 0.625rem rgba(250, 48, 3, 0.948);
+    padding: 0.625rem;
+    margin-top: 1.25rem;
+}
+font.style2 span.chinu {
+    display: inline-block;
+    margin-left: 0.3rem; /* Add minimal spacing between text and image */
+    margin-top: 0.3rem;
+    width: 62.5rem; /* Set desired width */
+    height: 30.625rem; /* Set desired height */
+    order: -1;
+}
+
+font.style2 span.chinu img {
+    width: 100%; /* Ensure the image fits the span */
+    height: 99%; /* Ensure the image fits the span */
+    object-fit: cover; /* Maintain aspect ratio if needed */
+    border-radius: 1.25rem;
+}
+font.style3{
+    color: #d5eb07;
+    font-size: 1.25rem;
+    font-family: cursive;
+    background-color: #0d0d0d;
+    border-radius: 1.25rem;
+    display: inline-flex; /* Use inline-flex for alignment */
+    align-items: center; /* Vertically align text and image */
+    margin-top: 1.875rem;
+    box-shadow: 0 0 0.625rem 0.625rem rgba(250, 48, 3, 0.948);
+}
+
+font.style3 span.batch {
+    display: inline-block;
+    margin-left: 0.3rem; /* Add minimal spacing between text and image */
+    width: 59.75rem; /* Set desired width */
+    height: 10rem; /* Set desired height */
+}
+
+font.style3 span.batch img {
+    width: 100%; /* Ensure the image fits the span */
+    height: 99%; /* Ensure the image fits the span */
+    object-fit: cover; /* Maintain aspect ratio if needed */
+    border-radius: 1.25rem;
+}
+font.style4{
+    color: rgb(174, 255, 0);
+    font-family: cursive;
+    font-size: 1.2rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #0d0d0d;
+    border-radius: 1.25rem;
+    box-shadow: 0 0 0.625rem 0.625rem rgba(250, 48, 3, 0.948);
+    padding: 0.625rem;
+    margin-top: 1.875rem;
+}
+font.style4 span.batch1 {
+    display: inline-block;
+    margin-left: 0.3rem; /* Add minimal spacing between text and image */
+    margin-top: 0.3rem;
+    width: 59.75rem; /* Set desired width */
+    height: 10rem; /* Set desired height */
+    order: -1;
+}
+
+font.style4 span.batch1 img {
+    width: 100%; /* Ensure the image fits the span */
+    height: 99%; /* Ensure the image fits the span */
+    object-fit: cover; /* Maintain aspect ratio if needed */
+    border-radius: 1.25rem;
+}
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    font.style1 {
+        font-size: 1.8rem; /* Smaller font size on phones */
+    }
+
+    font.style2,
+    font.style3,
+    font.style4 {
+        font-size: 1rem; /* Smaller font size on phones */
+        flex-direction: column; /* Stack text and image vertically */
+        text-align: center; /* Center text */
+    }
+
+    font.style2 span.chinu,
+    font.style3 span.batch,
+    font.style4 span.batch1 {
+        width: 100%; /* Full width on phones */
+        height: auto; /* Auto height to maintain aspect ratio */
+        order: 0; /* Put image below text */
+        margin-left: 0; /* Remove left margin */
+        margin-top: 0.5rem; /* Add top margin */
+    }
+}
+/* Styles for smaller screens (e.g., phones) */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column; /* Stack items vertically */
+        display: none; /* Hide the menu by default */
+    }
+
+    nav ul.active { /* Show the menu when the 'active' class is applied */
+        display: flex; /* Make sure to display as flex when active */
+    }
+
+    nav ul li {
+        float: none; /* Remove float */
+        text-align: left; /* Align text to the left */
+    }
+
+    /* Hamburger button */
+    .menu-toggle {
+        display: block; /* Show the button */
+        background-color: #333;
+        color: white;
+        padding: 14px 16px;
+        cursor: pointer;
+        text-align: left;
+        text-decoration: none;
+    }
+
+    .dropdown {
+        float: none; /* Remove float */
+    }
+
+    .dropdown .dropbtn {
+        display: block; /* Make the dropdown button a block element */
+        width: 100%; /* Full width */
+        text-align: left; /* Align text to the left */
+    }
+
+    .dropdown-content {
+        position: static; /* Change position to static */
+        display: none; /* Hide by default */
+        width: 100%; /* Full width */
+        box-shadow: none; /* Remove shadow */
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block; /* Show on hover */
+    }
+}
